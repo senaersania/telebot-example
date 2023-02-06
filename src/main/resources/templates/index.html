@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- title -->
+    <div>
+    <p>Spring boot jdk 8 + thymeleaf default page ok!</p>
+    </div>
+
+    <!-- content channel message -->
+    <div>
+        <h1>try send message to channel telegram!</h1>
+    <form action="v1/telegram-form">
+        <input type="submit" value="Telegram channel" />
+    </form>
+    </div>
+
+    <!-- content group message -->
+    <div>
+        <h1>try continue send message to group telegram?</h1>
+    <form action="v2/telegram-form">
+        <input type="submit" value="Telegram Group" />
+    </form>
+    </div>
+</body>
+</html>
